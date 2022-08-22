@@ -1,0 +1,377 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nd {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  max-width: 1175px;
+}
+
+header {
+  height: 110px;
+}
+header .logo {
+  width: 169px;
+  height: 28px;
+}
+header .logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+header .menu a {
+  color: #aaa7b1;
+}
+header .contact button {
+  width: 174px;
+  height: 54px;
+  border-radius: 1.75rem;
+  border: 0;
+  outline: none;
+  color: white;
+  background-color: #5390ff;
+}
+
+.banner {
+  margin-top: 63px;
+}
+.banner .banner_content {
+  width: 558px;
+  height: 438px;
+}
+.banner .banner_content h1 {
+  font-size: 70px;
+}
+.banner .banner_content p {
+  font-size: 20px;
+  color: #7b7e90;
+}
+.banner .banner_content div {
+  width: 464px;
+  height: 68px;
+  padding: 8px;
+  border-radius: 1.75rem;
+  border: 1px solid #d5e4ff;
+}
+.banner .banner_content div input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding-left: 18px;
+}
+.banner .banner_content div button {
+  width: 147px;
+  height: 52px;
+  background-color: #4585f9;
+}
+.banner .banner_img {
+  width: 497px;
+  height: 549px;
+}
+.banner .banner_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sc-1 h1 {
+  width: 622px;
+  font-size: 46px;
+}
+.sc-1 p {
+  padding-top: 25px;
+  color: #aaa7b1;
+}
+.sc-1 .box {
+  height: 232px;
+  border-radius: 1.75rem;
+  background-image: linear-gradient(180deg, #ebf1ff, #fdfeff);
+}
+.sc-1 .box img {
+  width: 108px;
+  height: 108px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sc-2 p {
+  color: #aaa7b1;
+}
+.sc-2 .box2 .img {
+  height: 95px;
+  width: 84px;
+}
+.sc-2 .box2 .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sc-2 .box2 span {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  border: 1px dashed #ffb012;
+}
+.sc-2 .box2 p {
+  color: #2e2c49;
+}
+
+.sc-3 p {
+  width: 553px;
+  margin: 5px auto;
+  color: #aaa7b1;
+}
+.sc-3 .box3 div {
+  border: 1px solid #e5f0ff;
+}
+.sc-3 .box3 div h4 {
+  width: 239px;
+  color: #4d4c66;
+}
+.sc-3 .box3 div div {
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+}
+
+.btn {
+  background-color: #4585f9;
+}
+
+.number {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px dashed #ffb012;
+}
+
+.sc-6-left {
+  margin: 0 53px;
+}
+.sc-6-left .our {
+  width: 450px;
+  height: 450px;
+}
+.sc-6-left .our img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sc-6-right {
+  margin: 0 53px;
+}
+.sc-6-right h3 {
+  font-size: 46px;
+  font-weight: 600;
+  color: #2e2c49;
+}
+.sc-6-right p {
+  color: #aaa7b1;
+  font-size: 16px;
+}
+.sc-6-right .seona {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sc-6-right .seona div .box-seona h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e2c49;
+  margin: 0;
+}
+.sc-6-right .seona div .box-seona p {
+  margin-bottom: 0;
+}
+.sc-6-right .seona div .box-seona span {
+  color: #ffb012;
+}
+.sc-6-right .seona .slide {
+  display: flex;
+}
+.sc-6-right .seona .slide div {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #4585f9;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  border: 1px solid #4585f9;
+}
+.sc-6-right .seona .slide div:hover {
+  background-color: #4585f9;
+  color: white;
+}
+
+.seona > div > img {
+  background-color: #4585f9;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.sc-7 p {
+  max-width: 740px;
+  color: #aaa7b1;
+}
+.sc-7 .box4 {
+  margin: 0 15px;
+}
+.sc-7 .box4 .box4-img {
+  border-radius: 1.75rem;
+  height: 244px;
+  overflow: hidden;
+}
+.sc-7 .box4 .box4-content h3 {
+  color: #2e2c49;
+  font-size: 24px;
+}
+.sc-7 .see_all {
+  width: 130px;
+  height: 48px;
+  margin: 60px auto;
+  background-color: #4585f9;
+  color: #fdfeff;
+  border-radius: 1.75rem;
+}
+.sc-7 .see_all span {
+  font-size: 16px;
+}
+.sc-7 .see_all .see-icon {
+  background-color: white;
+  color: #4585f9;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14px;
+}
+
+.sc-8 {
+  background-image: url("../img/Subscription beer (1).png");
+  color: #ffffff;
+}
+.sc-8 .box5 {
+  margin-top: 127px;
+  margin-left: 100px;
+}
+.sc-8 .box5 .field {
+  background-color: white;
+  border-radius: 1.75rem;
+  width: 400px;
+  height: 62px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sc-8 .box5 .field input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-left: 16px;
+  flex: 1;
+}
+.sc-8 .box5 .field .field-button {
+  background-color: #4585f9;
+  width: 130px;
+  height: 48px;
+  border-radius: 1.75rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sc-8 .box5 .field .field-button .see-icon {
+  background-color: white;
+  color: #4585f9;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14px;
+}
+.sc-8 .box6 {
+  margin-top: 221px;
+  margin-left: 110px;
+  margin-bottom: 127px;
+  margin-right: 220px;
+}
+.sc-8 .box6 h2 {
+  font-size: 38px;
+  margin-bottom: 22px;
+}
+.sc-8 .box6 button {
+  outline: none;
+  background-color: #4585f9;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 1.25rem;
+}
+.sc-8 h1 {
+  font-weight: 600;
+  font-size: 46px;
+  color: white;
+}
+.sc-8 p {
+  color: white;
+}
+
+.sc-8 > div > div {
+  border-right: 1px dashed white;
+}
+
+footer .col-3 p {
+  color: #aaa7b1;
+  margin-top: 36px;
+  width: 239px;
+}
+footer ul {
+  margin-top: 32px;
+  list-style: none;
+  padding: 0;
+  color: #aaa7b1;
+}
+footer ul li {
+  line-height: 32px;
+}
+footer .footer-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4585f9;
+  margin: 0 8px;
+  border-radius: 8px;
+  color: #4585f9;
+}
+
+footer > div {
+  border-bottom: 1px solid #aaa7b1;
+}/*# sourceMappingURL=style.css.map */
